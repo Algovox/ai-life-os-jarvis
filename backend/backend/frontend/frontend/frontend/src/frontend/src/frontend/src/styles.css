@@ -1,0 +1,10 @@
+:root{ --bg:#0f172a; --card:#0b1220; --accent:#7c3aed; --muted:#94a3b8; }
+body{ margin:0; background:var(--bg); color:#e6eef8; font-family:Inter,system-ui,Arial; }
+.wrap{ max-width:900px; margin:28px auto; padding:16px; }
+.chat{ height:360px; overflow:auto; background:#071129; padding:10px; border-radius:12px; border:1px solid #132143; }
+.msg{ margin:8px 0; padding:8px; border-radius:8px; }
+.msg.you{ text-align:right; color:#bfe3ff; }
+.msg.ai{ text-align:left; color:#f0e9ff; background:rgba(124,58,237,0.08); border:1px solid rgba(124,58,237,0.12); }
+.row{ display:flex; gap:8px; margin-top:12px; }
+input{ flex:1; padding:10px; border-radius:8px; border:1px solid #1b2840; background:transparent; color:inherit; }
+button{ padding:10px 12px; border-radius:8px; border:none; background:var(--accent); color:white; }
